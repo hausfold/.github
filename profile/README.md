@@ -15,13 +15,6 @@ A small family of tools that turn a Mac into a quiet, keyboard-first, fog-grey
 workstation — arranged like a tiling Linux rig, but native to the grain of the
 Mac. One Nix flake raises the whole house; every piece also stands on its own.
 
-<div align="center">
-
-<!-- S1 hero — the house (profile/assets/hero.png) -->
-![the nebelhaus desktop — tiled windows over a fog-grey wallpaper, the sill status bar on top, everything in the muted nebelung palette](https://raw.githubusercontent.com/nebelhaus/.github/main/profile/assets/hero.png)
-
-</div>
-
 **New here?** Read the docs at **[nebelhaus.com](https://nebelhaus.com)** — the
 [one-line install](https://nebelhaus.com/start/install/), a
 [first-run tour](https://nebelhaus.com/start/first-run/), and how-to guides for
