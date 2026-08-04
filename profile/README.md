@@ -28,6 +28,6 @@ One Nix flake raises the house; every piece also stands alone.
 
 Find your way in the fog at **[nebelhaus.com](https://nebelhaus.com)**.
 
-<sub>MIT · [Nix](https://nixos.org) · [nix-darwin](https://github.com/LnL7/nix-darwin) · [AeroSpace](https://github.com/nikitabobko/AeroSpace) · [SketchyBar](https://github.com/FelixKratz/SketchyBar) · [Catppuccin](https://github.com/catppuccin)</sub>
+<sub>licensed per repo — permissive, except [perch](https://github.com/nebelhaus/perch), which is fair source · [Nix](https://nixos.org) · [nix-darwin](https://github.com/LnL7/nix-darwin) · [AeroSpace](https://github.com/nikitabobko/AeroSpace) · [SketchyBar](https://github.com/FelixKratz/SketchyBar) · [Catppuccin](https://github.com/catppuccin)</sub>
 
 </div>
