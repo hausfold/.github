@@ -22,7 +22,6 @@ One Nix flake raises the house; every piece also stands alone.
 - 🌫️ &nbsp;**[nebelung](https://github.com/nebelhaus/nebelung)** — *the theme.* the silver-mist palette.
 - 🪵 &nbsp;**[holt](https://github.com/nebelhaus/holt)** — *the worktrees.* parallel coding agents, safely, in any repo.
 - 🧰 &nbsp;**[workshop](https://github.com/nebelhaus/workshop)** — *the bench.* where the family is built.
-- 🐦 &nbsp;**[trill](https://github.com/nebelhaus/trill)** — *the messages.* native iMessage/SMS/RCS, read from `chat.db`. *(archived — finished, not maintained)*
 
 <div align="center">
 
