@@ -20,7 +20,7 @@ downstream pins it.
 | Want to change… | Repo |
 |---|---|
 | the org profile README / the family showcase image | here ← **you are here** |
-| a tool's own README, banner or app icon | that tool's repo (`nebelhaus`, `pounce`, `trill`, `perch`, `nebelung`) |
+| a tool's own README, banner or app icon | that tool's repo (`nebelhaus`, `pounce`, `perch`, `nebelung`, `holt`) |
 | nebelhaus.com — the site, its logos, per-tool OG images, accents | `workshop` (`web/`) |
 | anything about how the family is built (`bench`, the routing table) | `workshop` |
 
