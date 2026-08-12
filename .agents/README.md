@@ -14,7 +14,7 @@ Corollary: never "fix" a stale pointer by copying the current text into it.
 
 The family-wide rationale — the four kinds of agent config, how to add a new
 harness — is written once, in the workshop:
-[`nebelhaus/workshop` → `.agents/README.md`](https://github.com/nebelhaus/workshop/blob/main/.agents/README.md).
+[`hausfold/workshop` → `.agents/README.md`](https://github.com/hausfold/workshop/blob/main/.agents/README.md).
 The table below is only what's wired in *this* repo.
 
 | Path | Read by | What it actually is |
@@ -27,11 +27,11 @@ The table below is only what's wired in *this* repo.
 
 **No session hook here, on purpose.** Every other repo in the family carries
 `.agents/setup.sh` — a Nix bootstrap for bare cloud containers. This repo has no
-flake, no build and no tests: it's a README and a PNG. There is nothing to
-bootstrap, so there's no `.agents/setup.sh`, no `.claude/settings.json`, no
-`.codex/` and no `.opencode/plugins/`. That absence is a decision, not an
-oversight — if this repo ever grows a build step, add the shared script from the
-workshop rather than writing a second one.
+flake, no build and no tests: it's a README. There is nothing to bootstrap, so
+there's no `.agents/setup.sh`, no `.claude/settings.json`, no `.codex/` and no
+`.opencode/plugins/`. That absence is a decision, not an oversight — if this
+repo ever grows a build step, add the shared script from the workshop rather
+than writing a second one.
 
 Likewise no repo-local flows: the cross-repo ones (`/ship`, `/docs-sync`) belong
 to the workshop. If one ever belongs here it goes in
