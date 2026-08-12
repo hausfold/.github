@@ -1,6 +1,6 @@
 <div align="center">
 
-**we rebuild the Mac.**
+**⌂ we rebuild the Mac.**
 
 one Nix flake for the whole desktop · small native apps that stand on their own
 
