@@ -20,8 +20,6 @@ one Nix flake for the whole desktop · small native apps that stand on their own
 
 <div align="center">
 
-the desktop lives at **[nebelhaus.com](https://nebelhaus.com)**
-
 <sub>licensed per repo — permissive, except [perch](https://github.com/hausfold/perch), which is fair source · [Nix](https://nixos.org) · [nix-darwin](https://github.com/LnL7/nix-darwin) · [AeroSpace](https://github.com/nikitabobko/AeroSpace) · [SketchyBar](https://github.com/FelixKratz/SketchyBar) · [Catppuccin](https://github.com/catppuccin)</sub>
 
 </div>
