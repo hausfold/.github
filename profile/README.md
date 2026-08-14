@@ -20,6 +20,8 @@ one Nix flake for the whole desktop · small native apps that stand on their own
 
 <div align="center">
 
+<sub>**everything here is pre-release** — built so that every path which could lose your work is either reversible by design or stops to ask you first. that's the intent, not a warranty: run it on a machine you can afford to rebuild, and tell us what breaks.</sub>
+
 <sub>licensed per repo — permissive, except [perch](https://github.com/hausfold/perch), which is fair source · [Nix](https://nixos.org) · [nix-darwin](https://github.com/LnL7/nix-darwin) · [AeroSpace](https://github.com/nikitabobko/AeroSpace) · [SketchyBar](https://github.com/FelixKratz/SketchyBar) · [Catppuccin](https://github.com/catppuccin)</sub>
 
 </div>
