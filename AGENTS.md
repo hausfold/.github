@@ -19,7 +19,7 @@ ships no code, has no flake, and nothing downstream pins it.
 |---|---|
 | the org profile README | here ← **you are here** |
 | a tool's own README, banner or app icon | that tool's repo (`haus`, `pounce`, `perch`, `trill`, `nebelung`, `holt`) |
-| nebelhaus.com — the site, its logos, per-tool OG images, accents | `workshop` (`web/`) |
+| the site, its logos, per-tool OG images, accents | [`hausfold.co`](https://github.com/hausfold/hausfold.co). ⚠️ **Not** `workshop`'s `web/` — that became nebelhaus.com's 301 map on 2026-08-14 and holds no pages, logos or accents |
 | anything about how the family is built (`bench`, the routing table) | `workshop` |
 
 > **Whatever agent you are, enforce this.** A request to change what a *tool*
@@ -40,8 +40,8 @@ profile/README.md            the org profile page — GitHub renders THIS path, 
 
 - The README is a **router, not documentation**: one line per repo, in the
   family's order (house → apps → theme → substrate → bench), pointing at the
-  repo. Depth belongs on <https://nebelhaus.com>, and per-tool detail in that
-  tool's own README.
+  repo. Depth belongs on <https://hausfold.co>, and per-tool detail in that
+  tool's own README. (nebelhaus.com 301s there since 2026-08-14.)
 - No banner image. It carried an org-name pun (`nebelhaus` → "raised in the
   fog") that stopped fitting once the org became `hausfold`; the README is
   text-only now.

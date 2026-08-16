@@ -13,7 +13,7 @@ The short version:
   the only file that reaches <https://github.com/hausfold>.
 - No banner image — the README is text-only.
 - The README is a **router, not documentation**: one line per repo, depth lives
-  on nebelhaus.com and in each tool's own README.
+  on hausfold.co and in each tool's own README.
 
 For review comments, the same bar applies as anywhere in the family:
 correctness and boundaries (does this change belong in *this* repo?) over style.
