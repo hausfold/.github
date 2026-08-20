@@ -3,12 +3,10 @@
 **`hausfold/.github`** — the org's front page. This repo exists to render one
 thing: the profile README shown at <https://github.com/hausfold>.
 
-**This file is the one set of instructions, for every agent.** Claude Code,
-Codex, OpenCode, Cursor, Copilot — TUI or GUI — all read *this*, directly or
-through a one-line pointer. Nothing harness-specific belongs here; when a flow
-needs per-client wiring, the wiring lives in that client's own file and the
-*content* stays here or in `.agents/`. The map of which tool reads which file is
-[`.agents/README.md`](./.agents/README.md).
+**This file is the one set of instructions, for every agent** — Claude Code,
+Codex, OpenCode, Cursor, Copilot alike, directly or through a one-line pointer.
+Per-client wiring lives in that client's own file; the content stays here or in
+[`.agents/`](./.agents/README.md).
 
 ## Am I in the right repo? (routing)
 
@@ -19,7 +17,7 @@ ships no code, has no flake, and nothing downstream pins it.
 |---|---|
 | the org profile README | here ← **you are here** |
 | a tool's own README, banner or app icon | that tool's repo (`haus`, `pounce`, `perch`, `trill`, `nebelung`, `holt`) |
-| the site, its logos, per-tool OG images, accents | [`hausfold.co`](https://github.com/hausfold/hausfold.co). ⚠️ **Not** `workshop` — it once held a `web/` tree that served a second site, and that tree is deleted |
+| the site, its logos, per-tool OG images, accents | [`hausfold.co`](https://github.com/hausfold/hausfold.co) — ⚠️ **not** `workshop` |
 | anything about how the family is built (`bench`, the routing table) | `workshop` |
 
 > **Whatever agent you are, enforce this.** A request to change what a *tool*
@@ -42,8 +40,7 @@ profile/README.md            the org profile page — GitHub renders THIS path, 
   family's order (house → apps → theme → substrate → bench), pointing at the
   repo. Depth belongs on <https://hausfold.co>, and per-tool detail in that
   tool's own README.
-- No banner image. It carried an org-name pun that stopped fitting once the org
-  became `hausfold`; the README is text-only now.
+- **No banner image** — the README is text-only.
 - Voice: lowercase, spare. Match what's there rather than introducing a new
   register.
 - Licensed per repo, no identity, no secrets — same as every repo in the
