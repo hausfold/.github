@@ -16,7 +16,7 @@ ships no code, has no flake, and nothing downstream pins it.
 | Want to change… | Repo |
 |---|---|
 | the org profile README | here ← **you are here** |
-| a tool's own README, banner or app icon | that tool's repo (`haus`, `pounce`, `perch`, `trill`, `nebelung`, `holt`) |
+| a tool's own README, banner or app icon | that tool's repo (`haus`, `pounce`, `perch`, `trill`, `nebelung`, `scruff`) |
 | the site, its logos, per-tool OG images, accents | [`hausfold.co`](https://github.com/hausfold/hausfold.co) — ⚠️ **not** `workshop` |
 | anything about how the family is built (`bench`, the routing table) | `workshop` |
 
