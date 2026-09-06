@@ -1,47 +1,23 @@
 # AGENTS.md
 
-**`hausfold/.github`** — the org's front page. This repo exists to render one
-thing: the profile README shown at <https://github.com/hausfold>.
-
-**This file is the one set of instructions, for every agent** — Claude Code,
-Codex, OpenCode, Cursor, Copilot alike, directly or through a one-line pointer.
-Per-client wiring lives in that client's own file; the content stays here or in
+**`hausfold/.github`** — the org's front page, <https://github.com/hausfold>.
+No code, no flake, nothing pins it. Wiring:
 [`.agents/`](./.agents/README.md).
 
-## Am I in the right repo? (routing)
-
-**This repo owns THE ORG FRONT PAGE** — the profile README. Nothing else. It
-ships no code, has no flake, and nothing downstream pins it.
+## Routing
 
 | Want to change… | Repo |
 |---|---|
-| the org profile README | here ← **you are here** |
-| a tool's own README, banner or app icon | that tool's repo (`haus`, `pounce`, `perch`, `trill`, `nebelung`, `scruff`) |
-| the site, its logos, per-tool OG images, accents | [`hausfold.co`](https://github.com/hausfold/hausfold.co) — ⚠️ **not** `workshop` |
-| anything about how the family is built (`bench`, the routing table) | `workshop` |
+| the profile README | here |
+| a tool's README, banner or icon | that tool's repo |
+| the site, logos, OG images | `hausfold.co`, not `workshop` |
+| how the family is built (`bench`) | `workshop` |
 
-> **Whatever agent you are, enforce this.** A request to change what a *tool*
-> looks like or does almost never belongs here — this repo only holds the shop
-> window. Point at the right repo before editing.
+## Rules
 
-```
-profile/README.md            the org profile page — GitHub renders THIS path, not the repo root
-```
-
-## The one thing that will bite you
-
-- **`profile/README.md` is the rendered file, not `README.md` at the root.**
-  GitHub only picks up the profile page from `profile/README.md` in a repo named
-  `.github`. A root `README.md` here renders nowhere.
-
-## Conventions
-
-- The README is a **router, not documentation**: one line per repo, in the
-  family's order (house → apps → theme → substrate → bench), pointing at the
-  repo. Depth belongs on <https://hausfold.co>, and per-tool detail in that
-  tool's own README.
-- **No banner image** — the README is text-only.
-- Voice: lowercase, spare. Match what's there rather than introducing a new
-  register.
-- Licensed per repo, no identity, no secrets — same as every repo in the
-  family.
+- **GitHub renders `profile/README.md`; a root `README.md` renders nowhere.**
+- A router, not documentation: one line per repo, family order (house,
+  apps, theme, substrate, bench); depth is <https://hausfold.co> and each
+  tool's README.
+- Text only, lowercase, spare; no banner.
+- Licensed per repo; no identity, no secrets.
